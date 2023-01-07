@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+/* Section 1 */
+.center-right {
+    position: absolute;
+    text-align: right;
+    top: 200px;
+    right: 230px;
+    left: 745px;
+
+}
+.b1h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 55px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+.banner-paragraph{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+    padding-bottom: 32px;
+    color: #444343;
+}
+.btn-contact{
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
