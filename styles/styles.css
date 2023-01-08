@@ -1,7 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
 }
-
 /* Section 1 */
 .center-right {
     position: absolute;
@@ -33,3 +33,194 @@
     border: 0;
     border-radius: 5px;
 }
+
+/* section 2 */
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 100px 200px 0 200px; */
+    margin: 100px 200px 0 200px;
+}
+/* Section 2 - padding */
+.center{
+    padding: 300px 0 200px 50px;
+}
+/* section 2 - div 2 */
+.center-h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+}
+.center-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+.center-p5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: #444343;
+}
+/* Section 3 */
+.section-3{
+    padding: 0 200px;
+}
+
+/* Section 3 - Header */
+.s3h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    color: #151414;
+}
+/* Section 3 - Plans */
+.container-plans{
+    display: flex;
+    justify-content: center;
+}
+.plan-1{
+    padding: 50px 50px 0 0;
+    text-align: center;
+}
+.plan-2{
+    padding: 50px 50px 0 0;
+    text-align: center;
+}
+.plan-3{
+    padding: 50px 50px 0 0;
+    text-align: center;
+}
+.plan-4{
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+/* Section 3 - Plan Details */
+.plan-name-1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 30px;
+    color: #151414;
+    padding: 24px 0 16px 0;
+}
+.plan-do-2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 25px;
+    color: #737272;
+}
+/* Section 4 */
+.section-4{
+    padding: 100px 200px 420px 200px;
+}
+#blend-img{
+    position: relative;
+}
+.img-1{
+    height: 300px;
+    width: 1200px;
+    position: absolute;
+}
+.img-2{
+    height: 300px;
+    width: 1200px;
+    position: absolute;
+}
+.call-me{
+    position: absolute;
+    padding: 60px 600px 60px 65px;
+}
+.s4h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.btn-call{
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    background: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+}
+/* Section 5 */
+.section-5{
+    background-color: #949494;
+    height: 600px;
+    width: 1600px;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+}
+/* div1 */
+.info{
+    height: 485px;
+    width: 317px;
+    padding: 130px 200px;
+}
+.info-head{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 20px;
+}
+.info-para{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.social-btn{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fb{
+    border: 0;
+    border-radius: 50%;
+}
+.twitter{
+    border: 0;
+    border-radius: 50%;
+}
+.youtube{
+    border: 0;
+    border-radius: 50%;
+}
+/* div2 */
+.subscribe{
+    height: 204px;
+    width: 325px;
+    padding: 130px 0 243px 0;
+}
+.sub-head{
+    height: 30px;
+    width: 125px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.sub-btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+}
+
