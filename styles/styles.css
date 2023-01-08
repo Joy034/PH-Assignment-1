@@ -1,26 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    font-style: normal;
+    font-family: 'Work Sans';
+}
+/* All Section Container */
+.container-all{
+    width: 1600px;
+    height: auto;
 }
 /* Section 1 */
+#blend{
+    position: relative;
+}
+.s1-img{
+    position: absolute;
+    height: 808px;
+    width: 1600px;
+}
 .center-right {
+    height: 326px;
+    width: 525px;
     position: absolute;
     text-align: right;
-    top: 200px;
-    right: 230px;
-    left: 745px;
-
+    padding: 200px 200px 0 875px;
 }
 .b1h1{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 55px;
     padding-bottom: 24px;
     color: #151414;
 }
 .banner-paragraph{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 16px;
     text-align: right;
     padding-bottom: 32px;
@@ -30,106 +40,73 @@
     width: 160px;
     height: 64px;
     background: #F15B22;
+    font-size: 20px;
+    color: white;
     border: 0;
     border-radius: 5px;
 }
-
-/* section 2 */
+/* Section 2 */
 .section-2{
     display: flex;
     justify-content: space-between;
-    /* padding: 100px 200px 0 200px; */
-    margin: 100px 200px 0 200px;
+    padding: 908px 200px 0 200px;
 }
-/* Section 2 - padding */
 .center{
-    padding: 300px 0 200px 50px;
+    padding: 270px 122px 0 87px;
 }
-/* section 2 - div 2 */
 .center-h2{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 40px;
     color: #151414;
     padding-bottom: 24px;
 }
 .center-p{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 16px;
     color: #444343;
     padding-bottom: 16px;
 }
 .center-p5{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 16px;
     padding-bottom: 8px;
     color: #444343;
 }
 /* Section 3 */
 .section-3{
-    padding: 0 200px;
+    padding: 100px 200px;
 }
-
-/* Section 3 - Header */
 .s3h1{
-    font-family: 'Work Sans';
-    font-style: normal;
     text-align: center;
     font-size: 60px;
     color: #151414;
 }
-/* Section 3 - Plans */
 .container-plans{
     display: flex;
     justify-content: center;
-}
-.plan-1{
-    padding: 50px 50px 0 0;
     text-align: center;
+    gap: 86px;
+    padding-top: 55px;
 }
-.plan-2{
-    padding: 50px 50px 0 0;
-    text-align: center;
-}
-.plan-3{
-    padding: 50px 50px 0 0;
-    text-align: center;
-}
-.plan-4{
-    padding: 50px 0 0 0;
-    text-align: center;
-}
-/* Section 3 - Plan Details */
-.plan-name-1{
-    font-family: 'Work Sans';
-    font-style: normal;
+.plan-name{
     font-size: 30px;
     color: #151414;
     padding: 24px 0 16px 0;
 }
-.plan-do-2{
-    font-family: 'Work Sans';
-    font-style: normal;
+.plan-do{
     font-size: 25px;
     color: #737272;
 }
 /* Section 4 */
 .section-4{
-    padding: 100px 200px 420px 200px;
+    height: 300px;
+    width: 1200px;
+    padding: 0 200px 100px 200px;
 }
 #blend-img{
     position: relative;
 }
 .img-1{
-    height: 300px;
-    width: 1200px;
     position: absolute;
 }
 .img-2{
-    height: 300px;
-    width: 1200px;
     position: absolute;
 }
 .call-me{
@@ -137,8 +114,6 @@
     padding: 60px 600px 60px 65px;
 }
 .s4h1{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 40px;
     color: #FFFFFF;
     padding-bottom: 24px;
@@ -162,22 +137,17 @@
     display: flex;
     justify-content: space-between;
 }
-/* div1 */
 .info{
-    height: 485px;
-    width: 317px;
+    height: 317px;
+    width: 485px;
     padding: 130px 200px;
 }
 .info-head{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 45px;
     color: #F8F8F8;
     padding-bottom: 20px;
 }
 .info-para{
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 16px;
     color: #FFFFFF;
     padding-bottom: 20px;
@@ -186,31 +156,25 @@
     width: 200px;
     display: flex;
     justify-content: space-between;
-
 }
 .fb{
-    border: 0;
+    border-color: #F15B22;
     border-radius: 50%;
 }
 .twitter{
-    border: 0;
+    border-color: #F15B22;
     border-radius: 50%;
 }
 .youtube{
-    border: 0;
+    border-color: #F15B22;
     border-radius: 50%;
 }
-/* div2 */
 .subscribe{
     height: 204px;
     width: 325px;
-    padding: 130px 0 243px 0;
+    padding: 130px 200px 243px 180px;
 }
 .sub-head{
-    height: 30px;
-    width: 125px;
-    font-family: 'Work Sans';
-    font-style: normal;
     font-size: 25px;
     color: #FFFFFF;
 }
@@ -223,4 +187,3 @@
     border-radius: 5px;
     color: #F15B22;
 }
-
